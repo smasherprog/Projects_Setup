@@ -9,17 +9,17 @@ Repo for information on how to setup various platforms for development with my l
 <li>
 <h4>Install latest version of xcode command line tools</h4>
 <p>Open a new Terminal</p>
-<p>Type: xcode-select --install</p>
+<p><b>Type:</b> xcode-select --install</p>
 <p>Agree to the terms. Now the tools will begin to download and install</p>
 </li>
 <li>
 <h4>Install cmake v8.1 or greater</h4>
-<p>Download (.dmg file): https://cmake.org/download/<p>
-<p>Pre-Install: Once you have successfully downloaded the .dmg file, simply click on it and press Agree at the next window<p>
+<p><b>Download:</b> https://cmake.org/download/  <b>get the .dmg file</b>, not the tar.gz<p>
+<p><b>Pre-Install:</b> Once you have successfully downloaded the .dmg file, simply click on it and press Agree at the next window<p>
 <img src="https://raw.github.com/smasherprog/Projects_Setup/master/Mac/cmakedmg.JPG" height="200"/>
-<p>Install: To complete the installation you must drag and drop CMake onto the Applications folder.<p>
+<p><b>Install:</b> To complete the installation you must drag and drop CMake onto the Applications folder.<p>
 <img src="https://raw.github.com/smasherprog/Projects_Setup/master/Mac/cmakeappinstall.JPG" height="200"/>
-<p>Post-Install: Close the previous window</p>
+<p><b>Post-Install:</b> Close the previous window</p>
 <li>
 <li>
 
