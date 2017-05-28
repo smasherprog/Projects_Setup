@@ -36,7 +36,7 @@ Repo for information on how to setup various platforms for development with my l
 <li>
 <h4>Install homebrew common libraries</h4>
 <p>Open a Terminal</p>
-<p><b>Type:</b> brew install fltk boost openssl libjpeg-turbo</p>
+<p><b>Type:</b> brew install fltk boost openssl libjpeg-turbo zlib</p>
 </li>
 <ul>
 
