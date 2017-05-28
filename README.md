@@ -1,5 +1,9 @@
 # Projects Setup
 Repo for information on how to setup various platforms for development with my libraries
+<h3>Windows Setup</h3>
+
+<h3>Linux Setup (Ubuntu)</h3>
+
 <h3>Mac Setup</h3>
 <ul>
 <li>
@@ -8,7 +12,7 @@ Repo for information on how to setup various platforms for development with my l
 </li>
 <li>
 <h4>Install latest version of xcode command line tools</h4>
-<p>Open a new Terminal</p>
+<p>Open a Terminal</p>
 <p><b>Type:</b> xcode-select --install</p>
 <p>Agree to the terms. Now the tools will begin to download and install</p>
 </li>
@@ -22,7 +26,17 @@ Repo for information on how to setup various platforms for development with my l
 <p><b>Post-Install:</b> Close the previous window</p>
 <li>
 <li>
-
+<h4>Install homebrew</h4>
+<p>Open a Terminal</p>
+<p><b>Type:</b> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</p>
+<p>You will be prompted to press ENTER to continue --which you should.<p>
+<p>Next you might have to enter your password. If prompted, enter your password</p>
+<p>At this point, homebrew is installed!</p>
+</li>
+<li>
+<h4>Install homebrew common libraries</h4>
+<p>Open a Terminal</p>
+<p><b>Type:</b> brew install fltk boost openssl libjpeg-turbo</p>
 </li>
 <ul>
 
