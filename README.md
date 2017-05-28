@@ -1,10 +1,16 @@
 # Projects Setup
 Repo for information on how to setup various platforms for development with my libraries
-<h3>Windows Setup</h3>
+<p>Goto</p>
+<ul>
+<li><a href="Windows">Windows</a></li>
+<li><a href="Linux">Linux</a></li>
+<li><a href="Mac">Mac</a></li>
+</ul>
+<h3 id="Windows">Windows Setup</h3>
 
-<h3>Linux Setup (Ubuntu)</h3>
+<h3 id="Linux">Linux Setup (Ubuntu)</h3>
 
-<h3>Mac Setup</h3>
+<h3 id="Mac">Mac Setup</h3>
 <ul>
 <li>
 <h4>Install latest version of xcode</h4>
