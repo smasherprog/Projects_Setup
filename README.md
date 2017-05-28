@@ -16,7 +16,7 @@ Repo for information on how to setup various platforms for development with my l
 </li>
 <li>
 <h4>Install cmake v8.1 or greater</h4>
-<p><b>Download:</b> https://cmake.org/download/  <b>get the .msi file</b>, not the zip<p>
+<p><b>Download:</b> https://cmake.org/download/  <b>get the .msi file</b>, not the zip</p>
 <p>Once downloaded, run the msi and press next to all of the dialog boxes that appear</p>
 </li>
 <li>
@@ -46,17 +46,17 @@ Repo for information on how to setup various platforms for development with my l
 </li>
 <li>
 <h4>Install cmake v8.1 or greater</h4>
-<p><b>Download:</b> https://cmake.org/download/  <b>get the .dmg file</b>, not the tar.gz<p>
+<p><b>Download:</b> https://cmake.org/download/  <b>get the .dmg file</b>, not the tar.gz</p>
 <p><b>Pre-Install:</b> Once you have successfully downloaded the .dmg file, simply click on it and press Agree at the next window<p>
 <img src="https://raw.github.com/smasherprog/Projects_Setup/master/Mac/cmakedmg.JPG" height="200"/>
-<p><b>Install:</b> To complete the installation you must drag and drop CMake onto the Applications folder.<p>
+<p><b>Install:</b> To complete the installation you must drag and drop CMake onto the Applications folder.</p>
 <img src="https://raw.github.com/smasherprog/Projects_Setup/master/Mac/cmakeappinstall.JPG" height="200"/>
 <p><b>Post-Install:</b> Close the previous window</p>
 <li>
 <h4>Install homebrew</h4>
 <p>Open a Terminal</p>
 <p><b>Type:</b> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</p>
-<p>You will be prompted to press ENTER to continue --which you should.<p>
+<p>You will be prompted to press ENTER to continue --which you should.</p>
 <p>Next you might have to enter your password. If prompted, enter your password</p>
 <p>At this point, homebrew is installed!</p>
 </li>
