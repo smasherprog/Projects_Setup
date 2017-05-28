@@ -39,7 +39,7 @@ Repo for information on how to setup various platforms for development with my l
 <li>
 <h4>Install tools and libraries</h4>
 <p>Open a Terminal</p>
-<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libjpeg-turbo8-dev libboost-all-dev libssl-dev libfltk1.3-dev libxext-dev libx11-dev libxfixes-dev gcc lldb libxtst-dev libuv-dev -y</p>
+<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libjpeg-turbo8-dev libboost-all-dev libssl-dev libfltk1.3-dev libxext-dev libx11-dev libxfixes-dev gcc lldb libxtst-dev libuv-dev cmake-qt-gui -y</p>
 <p><b>Type:</b> pip install autobahntestsuite</p>
 </li>
 <li>
