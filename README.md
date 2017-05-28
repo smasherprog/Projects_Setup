@@ -1,5 +1,6 @@
 # Projects Setup
-Repo for information on how to setup various platforms for development with my libraries
+<p>Repo for information on how to setup various platforms for development with my libraries</p>
+<p><b>Note:</b> Not all projects require the libraries, but to keep everything simple, this should be followed for all of my projects.</p>
 <ul>
 <li><a href="#Windows">Windows</a></li>
 <li><a href="#Linux">Linux</a></li>
