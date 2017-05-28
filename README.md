@@ -7,7 +7,27 @@ Repo for information on how to setup various platforms for development with my l
 <li><a href="#Mac">Mac</a></li>
 </ul>
 <h3 id="Windows">Windows Setup</h3>
-
+<ul>
+<li>
+<h4>Install latest version of Visual Studio 2017 or greater <b>I DO NOT SUPPORT OLDER VERSIONS OF VS</b></h4>
+<p>Download Community version: https://www.visualstudio.com/downloads/</p>
+<p>Select the Desktop development with c++ and install</p>
+</li>
+<li>
+<h4>Install cmake v8.1 or greater</h4>
+<p><b>Download:</b> https://cmake.org/download/  <b>get the .msi file</b>, not the zip<p>
+<p>Once downloaded, run the msi and press next to all of the dialog boxes that appear</p>
+</li>
+<li>
+<h4>install vcpkg (package manager for windows)</h4>
+<p>Follow the directions on the landing page here https://github.com/Microsoft/vcpkg<p>
+</li>
+<li>
+<h4>install vcpkg common libraries</h4>
+<p>Open a command prompt and navigate to the installation location of the above vcpkg. Note, the install location should have vcpkg.exe in it if you followed the installation instructions.<p>
+<p><b>Type:</b> vcpkg install fltk boost openssl libjpeg-turbo zlib</p>
+</li>
+<ul>
 <h3 id="Linux">Linux Setup (Ubuntu)</h3>
 
 <h3 id="Mac">Mac Setup</h3>
