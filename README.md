@@ -44,7 +44,7 @@ Repo for information on how to setup various platforms for development with my l
 </li>
 <li>
 <h4>Install cmake v8.1 or greater</h4>
-<p><b>Type:</b> wget https://cmake.org/files/v3.8/cmake-3.8.1-Linux-x86_64.sh && chmod u+x cmake-3.8.1-Linux-x86_64.sh && sudo ./cmake-3.8.1-Linux-x86_64.sh --skip-license --prefix=/usr/local</p>
+<p><b>Type:</b> wget https://cmake.org/files/v3.8/cmake-3.8.1-Linux-x86_64.sh && chmod u+x cmake-3.8.1-Linux-x86_64.sh && sudo ./cmake-3.8.1-Linux-x86_64.sh --skip-license --prefix=/usr/local && rm cmake-3.8.1-Linux-x86_64.sh</p>
 <li>
 </ul>
 <h3 id="Mac">Mac Setup</h3>
