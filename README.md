@@ -6,6 +6,7 @@ Repo for information on how to setup various platforms for development with my l
 <li><a href="#Linux">Linux</a></li>
 <li><a href="#Mac">Mac</a></li>
 </ul>
+
 <h3 id="Windows">Windows Setup</h3>
 <ul>
 <li>
@@ -20,7 +21,7 @@ Repo for information on how to setup various platforms for development with my l
 </li>
 <li>
 <h4>install vcpkg (package manager for windows)</h4>
-<p>Follow the directions on the landing page here https://github.com/Microsoft/vcpkg<p>
+<p>Follow the directions on the landing page here https://github.com/Microsoft/vcpkg</p>
 </li>
 <li>
 <h4>install vcpkg common libraries</h4>
@@ -28,6 +29,7 @@ Repo for information on how to setup various platforms for development with my l
 <p><b>Type:</b> vcpkg install fltk boost openssl libjpeg-turbo zlib</p>
 </li>
 <ul>
+
 <h3 id="Linux">Linux Setup (Ubuntu)</h3>
 
 <h3 id="Mac">Mac Setup</h3>
