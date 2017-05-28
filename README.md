@@ -25,7 +25,7 @@ Repo for information on how to setup various platforms for development with my l
 </li>
 <li>
 <h4>install vcpkg common libraries</h4>
-<p>Open a command prompt and navigate to the installation location of the above vcpkg. Note, the install location should have vcpkg.exe in it if you followed the installation instructions.<p>
+<p>Open a command prompt and navigate to the installation location of the above vcpkg. Note, the install location should have vcpkg.exe in it if you followed the installation instructions.</p>
 <p><b>Type:</b> vcpkg install fltk boost openssl libjpeg-turbo zlib</p>
 </li>
 <ul>
