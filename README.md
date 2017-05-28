@@ -1,6 +1,5 @@
 # Projects Setup
 Repo for information on how to setup various platforms for development with my libraries
-<p>Goto</p>
 <ul>
 <li><a href="#Windows">Windows</a></li>
 <li><a href="#Linux">Linux</a></li>
