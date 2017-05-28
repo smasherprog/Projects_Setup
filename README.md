@@ -25,7 +25,6 @@ Repo for information on how to setup various platforms for development with my l
 <img src="https://raw.github.com/smasherprog/Projects_Setup/master/Mac/cmakeappinstall.JPG" height="200"/>
 <p><b>Post-Install:</b> Close the previous window</p>
 <li>
-<li>
 <h4>Install homebrew</h4>
 <p>Open a Terminal</p>
 <p><b>Type:</b> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</p>
