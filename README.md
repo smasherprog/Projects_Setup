@@ -30,7 +30,7 @@ Repo for information on how to setup various platforms for development with my l
 </li>
 </ul>
 
-<h3 id="Linux">Linux Setup (Ubuntu)</h3>
+<h3 id="Linux">Linux Setup (Ubuntu 16.04)</h3>
 
 <h3 id="Mac">Mac Setup</h3>
 <ul>
