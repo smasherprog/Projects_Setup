@@ -30,7 +30,23 @@ Repo for information on how to setup various platforms for development with my l
 </ul>
 
 <h3 id="Linux">Linux Setup (Ubuntu 16.04)</h3>
-
+<ul>
+<li>
+<h4>Update existing tools</h4>
+<p>Open a Terminal</p>
+<p><b>Type:</b> sudo apt-get update && sudo apt-get upgrade -y</p>
+</li><
+li>
+<h4>Install tools and libraries</h4>
+<p>Open a Terminal</p>
+<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libjpeg-turbo8-dev libboost-all-dev libssl-dev libfltk1.3-dev libxext-dev libx11-dev libxfixes-dev gcc lldb libxtst-dev libuv-dev -y</p>
+<p><b>Type:</b> pip install autobahntestsuite</p>
+</li>
+<li>
+<h4>Install cmake v8.1 or greater</h4>
+<p><b>Type:</b> wget https://cmake.org/files/v3.8/cmake-3.8.1-Linux-x86_64.sh && chmod u+x cmake-3.8.1-Linux-x86_64.sh && sudo ./cmake-3.8.1-Linux-x86_64.sh --skip-license --prefix=/usr/local</p>
+<li>
+</ul>
 <h3 id="Mac">Mac Setup</h3>
 <ul>
 <li>
