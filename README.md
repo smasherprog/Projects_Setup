@@ -26,7 +26,7 @@
 <li>
 <h4>install vcpkg common libraries</h4>
 <p>Open a command prompt and navigate to the installation location of the above vcpkg. Note, the install location should have vcpkg.exe in it if you followed the installation instructions.</p>
-<p><b>Type:</b> vcpkg install fltk boost openssl libjpeg-turbo zlib</p>
+<p><b>Type:</b> vcpkg install openssl libjpeg-turbo zlib</p>
 </li>
 </ul>
 
@@ -40,7 +40,7 @@
 <li>
 <h4>Install tools and libraries</h4>
 <p>Open a Terminal</p>
-<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libjpeg-turbo8-dev libboost-all-dev libssl-dev libfltk1.3-dev libxext-dev libx11-dev libxfixes-dev gcc lldb libxtst-dev cmake-qt-gui -y</p>
+<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libjpeg-turbo8-dev libssl-dev libxext-dev libx11-dev libxfixes-dev gcc lldb libxtst-dev cmake-qt-gui -y</p>
 <p><b>Type:</b> pip install autobahntestsuite</p>
 </li>
 <li>
@@ -79,7 +79,7 @@
 <li>
 <h4>Install homebrew common libraries</h4>
 <p>Open a Terminal</p>
-<p><b>Type:</b> brew install fltk boost openssl libjpeg-turbo zlib</p>
+<p><b>Type:</b> brew install openssl libjpeg-turbo zlib</p>
 </li>
 <ul>
 
