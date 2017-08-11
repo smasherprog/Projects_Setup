@@ -40,7 +40,7 @@
 <li>
 <h4>Install tools and libraries</h4>
 <p>Open a Terminal</p>
-<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libjpeg-turbo8-dev libssl-dev libxext-dev libx11-dev libxfixes-dev gcc lldb libxtst-dev cmake-qt-gui -y</p>
+<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libjpeg-turbo8-dev libssl-dev libxext-dev libx11-dev libxfixes-dev libxinerama-dev gcc lldb libxtst-dev cmake-qt-gui -y</p>
 <p><b>Type:</b> pip install autobahntestsuite</p>
 </li>
 <li>
