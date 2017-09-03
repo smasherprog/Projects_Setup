@@ -19,15 +19,6 @@
 <p><b>Download:</b> https://cmake.org/download/  <b>get the .msi file</b>, not the zip</p>
 <p>Once downloaded, run the msi and press next to all of the dialog boxes that appear</p>
 </li>
-<li>
-<h4>install vcpkg (package manager for windows)</h4>
-<p>Follow the directions on the landing page here https://github.com/Microsoft/vcpkg</p>
-</li>
-<li>
-<h4>install vcpkg common libraries</h4>
-<p>Open a command prompt and navigate to the installation location of the above vcpkg. Note, the install location should have vcpkg.exe in it if you followed the installation instructions.</p>
-<p><b>Type:</b> vcpkg install openssl libjpeg-turbo zlib</p>
-</li>
 </ul>
 
 <h3 id="Linux">Linux Setup (Ubuntu 16.04)</h3>
@@ -40,7 +31,7 @@
 <li>
 <h4>Install tools and libraries</h4>
 <p>Open a Terminal</p>
-<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libjpeg-turbo8-dev libssl-dev libxext-dev libx11-dev libxfixes-dev libxinerama-dev gcc lldb libxtst-dev cmake-qt-gui -y</p>
+<p><b>Type:</b> sudo apt-get install build-essential python-dev git python-pip codelite libxext-dev libx11-dev libxfixes-dev libxinerama-dev gcc lldb libxtst-dev cmake-qt-gui -y</p>
 <p><b>Type:</b> pip install autobahntestsuite</p>
 </li>
 <li>
@@ -68,19 +59,6 @@
 <p><b>Install:</b> To complete the installation you must drag and drop CMake onto the Applications folder.</p>
 <img src="https://raw.github.com/smasherprog/Projects_Setup/master/Mac/cmakeappinstall.JPG" height="200"/>
 <p><b>Post-Install:</b> Close the previous window</p>
-<li>
-<h4>Install homebrew</h4>
-<p>Open a Terminal</p>
-<p><b>Type:</b> /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</p>
-<p>You will be prompted to press ENTER to continue --which you should.</p>
-<p>Next you might have to enter your password. If prompted, enter your password</p>
-<p>At this point, homebrew is installed!</p>
-</li>
-<li>
-<h4>Install homebrew common libraries</h4>
-<p>Open a Terminal</p>
-<p><b>Type:</b> brew install openssl libjpeg-turbo zlib</p>
-</li>
 <ul>
 
 
