@@ -20,7 +20,6 @@
 <p>Once downloaded, run the msi and press next to all of the dialog boxes that appear</p>
 </li>
 </ul>
-
 <h3 id="Linux">Linux Setup (Ubuntu 16.04)</h3>
 <ul>
 <li>
