@@ -19,6 +19,11 @@
 <p><b>Download:</b> https://cmake.org/download/  <b>get the .msi file</b>, not the zip</p>
 <p>Once downloaded, run the msi and press next to all of the dialog boxes that appear</p>
 </li>
+<li>
+<h4>Install perl for windows</h4>
+<p><b>Download:</b>https://www.activestate.com/activeperl/downloads
+<p>Once downloaded, run the msi and press next to all of the dialog boxes that appear</p>
+</li>
 </ul>
 <h3 id="Linux">Linux Setup (Ubuntu 16.04)</h3>
 <ul>
