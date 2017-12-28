@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send text message message with payload of length 1 * 2**20 (1M). Sent out data in chops of 128 octets.",
    "droppedByMe": false,
-   "duration": 8265,
+   "duration": 8240,
    "expectation": "Receive echo'ed text message (with payload as sent).",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: EJN9RQWDbeY+UuEvWsx4aw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Web Socket Protocol Handshake\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Extensions: \r\nSec-WebSocket-Accept: Ql7SW6fwteGoWosKpXN+42X4BMY=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: hcDOFRBDFqHOZSXQBn1b9w==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:by1yvU14+v1kCbhdtXFJJMujKpE=\r\n\r\n",
    "id": "9.5.2",
    "isServer": false,
    "localCloseCode": 1000,
@@ -40,20 +40,12 @@
    "rxOctetStats": {
       "4": 1,
       "7": 1,
-      "10": 1,
-      "167": 1,
-      "24656": 1,
-      "27576": 1,
-      "27740": 1,
-      "32120": 1,
-      "33416": 1,
-      "37796": 1,
-      "40880": 1,
-      "48180": 1,
-      "55316": 1,
-      "65536": 11
+      "126": 1,
+      "14610": 1,
+      "50936": 1,
+      "65536": 15
    },
-   "started": "2017-09-23T18:25:48.874Z",
+   "started": "2017-12-28T06:20:52.010Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1,
@@ -84,8 +76,8 @@
       [
          "RO",
          [
-            167,
-            "485454502f312e31203130312057656220536f636b65742050726f746f636f6c2048616e647368616b650d0a557067726164653a20776562736f636b65740d0a ..."
+            126,
+            "485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a557067726164653a776562736f636b65740d0a436f6e6e656374696f6e3a ..."
          ]
       ],
       [
@@ -101,7 +93,7 @@
          8,
          true,
          0,
-         "ccc37ebf",
+         "24fdb708",
          null,
          null,
          false
@@ -110,7 +102,7 @@
          "TO",
          [
             8,
-            "8882ccc37ebfcf2b"
+            "888224fdb7082715"
          ],
          false
       ],
