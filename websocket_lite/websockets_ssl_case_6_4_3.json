@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Same as Case 6.4.1, but we send message not in 3 frames, but in 3 chops of the same message frame.\n<br><br>MESSAGE PARTS:<br>\nPART1 = cebae1bdb9cf83cebcceb5<br>\nPART2 = f4908080<br>\nPART3 = 656469746564<br>\n",
    "droppedByMe": false,
-   "duration": 2004,
+   "duration": 2001,
    "expectation": "The first chop is accepted, we expect to timeout on the first wait. The 2nd chop should be rejected immediately (fail fast on UTF-8). If we timeout, we expect the connection is failed at least then, since the complete message payload is not valid UTF-8.",
    "expected": {
       "NON-STRICT": [
@@ -37,8 +37,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: BLKtTgmtxKIo4skTn8yxPw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:73zt4pV38s2abFsRxy6sGbODHjk=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: TREkRzvyg9xXmxjuWpZ/3g==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:5tx5JQgR/f0OK50zg1ZXYIZcsyg=\r\n\r\n",
    "id": "6.4.3",
    "isServer": false,
    "localCloseCode": 1000,
@@ -67,7 +67,7 @@
       "22": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:08:16.835Z",
+   "started": "2017-12-30T23:23:38.960Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 1,
@@ -105,7 +105,7 @@
          "TO",
          [
             6,
-            "01956f6505e4"
+            "01956f83f338"
          ],
          false
       ],
@@ -113,7 +113,7 @@
          "TO",
          [
             11,
-            "a1dfe459d6aa862ad3abb0"
+            "a1391285d64c70f6d34d46"
          ],
          false
       ],
@@ -130,7 +130,7 @@
          "TO",
          [
             4,
-            "10ffe585"
+            "ccff0373"
          ],
          false
       ],
@@ -147,7 +147,7 @@
          "TO",
          [
             6,
-            "810b0c71810b"
+            "5d0bea875d0b"
          ],
          false
       ],
@@ -160,7 +160,7 @@
          0,
          true,
          0,
-         "37ec6c7d",
+         "428ee27e",
          null,
          null,
          false
@@ -169,7 +169,7 @@
          "TO",
          [
             6,
-            "808037ec6c7d"
+            "8080428ee27e"
          ],
          false
       ],
@@ -212,7 +212,7 @@
          8,
          true,
          0,
-         "f07edc7e",
+         "b2966b30",
          null,
          null,
          false
@@ -221,7 +221,7 @@
          "TO",
          [
             8,
-            "8882f07edc7ef396"
+            "8882b2966b30b17e"
          ],
          false
       ]

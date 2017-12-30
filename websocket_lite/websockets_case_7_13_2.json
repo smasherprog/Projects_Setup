@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send close with close code 65536",
    "droppedByMe": false,
-   "duration": 0,
+   "duration": 1,
    "expectation": "Actual events are undefined by the spec.",
    "expected": {
       "OK": []
@@ -23,8 +23,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 6O1DHe9GwlLx+a25qf/e8w==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:acYjxcaEH4PIFfMDa7cu+l+q6ug=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: iUiP3beVNbk7Du7aZOeKDw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:cJdTv7iDDhlvlG+Csh9dWv2XS5s=\r\n\r\n",
    "id": "7.13.2",
    "isServer": false,
    "localCloseCode": 65535,
@@ -43,7 +43,7 @@
       "4": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:20:24.147Z",
+   "started": "2017-12-30T23:34:43.491Z",
    "trafficStats": null,
    "txFrameStats": {
       "8": 1
@@ -82,7 +82,7 @@
          8,
          true,
          0,
-         "7a157de5",
+         "1562d382",
          null,
          null,
          false
@@ -91,7 +91,7 @@
          "TO",
          [
             8,
-            "88827a157de585ea"
+            "88821562d382ea9d"
          ],
          false
       ],

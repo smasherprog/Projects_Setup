@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send fragmented binary message message with message payload of length 4 * 2**20 (4M). Sent out in fragments of 16k.",
    "droppedByMe": false,
-   "duration": 204,
+   "duration": 226,
    "expectation": "Receive echo'ed binary message (with payload as sent).",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: VFGMQKea0ShBNpgWWnMIwQ==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:DtMI907pG6B2itwL0dRk8uljuX0=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: WeuXjWBv1NfQP4uwjitCQw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:+mi1AANQ1zhvbYn1+45rE89VCqI=\r\n\r\n",
    "id": "9.4.5",
    "isServer": false,
    "localCloseCode": 1000,
@@ -38,11 +38,14 @@
    },
    "rxOctetStats": {
       "4": 1,
-      "10": 1,
       "126": 1,
-      "65536": 64
+      "18816": 1,
+      "24656": 1,
+      "40890": 1,
+      "46720": 1,
+      "65536": 62
    },
-   "started": "2017-12-28T06:20:35.166Z",
+   "started": "2017-12-30T23:34:53.811Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 256,
@@ -89,7 +92,7 @@
          8,
          true,
          0,
-         "364e4bcc",
+         "88bc807d",
          null,
          null,
          false
@@ -98,7 +101,7 @@
          "TO",
          [
             8,
-            "8882364e4bcc35a6"
+            "888288bc807d8b54"
          ],
          false
       ],

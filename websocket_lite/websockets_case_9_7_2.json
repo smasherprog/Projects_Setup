@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send 1000 text messages of payload size 16 to measure implementation/network RTT (round trip time) / latency.",
    "droppedByMe": false,
-   "duration": 171,
+   "duration": 230,
    "expectation": "Receive echo'ed text messages (with payload as sent). Timeout case after 60 secs.",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: hj+A6ZNtPkx6yjZHzd+Zbw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:htXvnF43h178LWk6et3kb0n+cwc=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: Auuo95Psm21sACQ87x+IGA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:u24/XlkRcKYaBk1PNeZTTIJj4ho=\r\n\r\n",
    "id": "9.7.2",
    "isServer": false,
    "localCloseCode": 1000,
@@ -37,13 +37,13 @@
       "8": 1
    },
    "rxOctetStats": {
-      "2": 5,
+      "2": 19,
       "4": 1,
-      "16": 5,
-      "18": 995,
+      "16": 19,
+      "18": 981,
       "126": 1
    },
-   "started": "2017-12-28T06:21:40.725Z",
+   "started": "2017-12-30T23:35:59.771Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1000,
@@ -96,7 +96,7 @@
          8,
          true,
          0,
-         "6dd7c5ad",
+         "feb5c2dc",
          null,
          null,
          false
@@ -105,7 +105,7 @@
          "TO",
          [
             8,
-            "88826dd7c5ad6e3f"
+            "8882feb5c2dcfd5d"
          ],
          false
       ],

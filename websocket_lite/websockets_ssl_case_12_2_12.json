@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send 1000 compressed messages each of payload size 16384, auto-fragment to 256 octets. Use default permessage-deflate offer.",
    "droppedByMe": false,
-   "duration": 4077,
+   "duration": 3197,
    "expectation": "Receive echo'ed messages (with payload as sent). Timeout case after 480 secs.",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: Bp2Dr2zV+Od1QX/xclsHUQ==\r\nSec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; client_max_window_bits\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:UyMX77nm2W6viH3V5L9B8JAjED4=\r\nSec-WebSocket-Extensions:permessage-deflate; client_no_context_takeover\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: O7aSeH0uJApuHikQF0sz0w==\r\nSec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; client_max_window_bits\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:md167grIqmdoXUGPf/qJsse7br0=\r\nSec-WebSocket-Extensions:permessage-deflate; client_no_context_takeover\r\n\r\n",
    "id": "12.2.12",
    "isServer": false,
    "localCloseCode": 1000,
@@ -42,7 +42,7 @@
       "199": 1,
       "16384": 1000
    },
-   "started": "2017-12-28T06:11:04.615Z",
+   "started": "2017-12-30T23:26:23.645Z",
    "trafficStats": {
       "incomingCompressionRatio": 1.0,
       "incomingOctetsAppLevel": 16384000,
@@ -359,7 +359,7 @@
          8,
          true,
          0,
-         "9ea8bece",
+         "c14f403a",
          null,
          null,
          false
@@ -368,7 +368,7 @@
          "TO",
          [
             8,
-            "88829ea8bece9d40"
+            "8882c14f403ac2a7"
          ],
          false
       ],

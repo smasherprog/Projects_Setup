@@ -27,8 +27,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: n5KIymsP+ycwNb1I9jCKtg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:NdDrHlZVVn9APJ7upSINv28cFKs=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: HfRJAq8crtp/Yluuq+xHOg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:F20XLyEbIdfiOZv7fKYgoKkVDsg=\r\n\r\n",
    "id": "1.1.6",
    "isServer": false,
    "localCloseCode": 1000,
@@ -57,7 +57,7 @@
       "16383": 1,
       "16384": 3
    },
-   "started": "2017-12-28T06:08:03.411Z",
+   "started": "2017-12-30T23:23:25.234Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1,
@@ -98,7 +98,7 @@
          1,
          true,
          0,
-         "0c6af882",
+         "f7fe27bb",
          null,
          null,
          false
@@ -107,7 +107,7 @@
          "TO",
          [
             65543,
-            "81feffff0c6af8822640d2a82640d2a82640d2a82640d2a82640d2a82640d2a82640d2a82640d2a82640d2a82640d2a82640d2a82640d2a82640d2a82640d2a8 ..."
+            "81fefffff7fe27bbddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91ddd40d91 ..."
          ],
          false
       ],
@@ -171,7 +171,7 @@
          8,
          true,
          0,
-         "aceb5522",
+         "204ca650",
          null,
          null,
          false
@@ -180,7 +180,7 @@
          "TO",
          [
             8,
-            "8882aceb5522af03"
+            "8882204ca65023a4"
          ],
          false
       ],

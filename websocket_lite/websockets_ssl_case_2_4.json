@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send ping with binary payload of 125 octets.",
    "droppedByMe": false,
-   "duration": 1,
+   "duration": 2,
    "expectation": "Pong with payload echo'ed is sent in reply to Ping. Clean close with normal code.",
    "expected": {
       "OK": [
@@ -26,8 +26,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: UZ2+yLDeVTEwLoUPvP1N0Q==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:RLn6jUogVmF//MVBU2qao3PXC5g=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 8kVPIXrSDaKYcBf9ZQLQyw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:eqwBPrKpVQzJLuMKWryrOpVH+DI=\r\n\r\n",
    "id": "2.4",
    "isServer": false,
    "localCloseCode": 1000,
@@ -53,7 +53,7 @@
       "125": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:08:05.034Z",
+   "started": "2017-12-30T23:23:26.871Z",
    "trafficStats": null,
    "txFrameStats": {
       "8": 1,
@@ -94,7 +94,7 @@
          9,
          true,
          0,
-         "911c4a64",
+         "bbdee71a",
          null,
          null,
          false
@@ -103,7 +103,7 @@
          "TO",
          [
             131,
-            "89fd911c4a646fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2b49a6fe2 ..."
+            "89fdbbdee71a452019e4452019e4452019e4452019e4452019e4452019e4452019e4452019e4452019e4452019e4452019e4452019e4452019e4452019e44520 ..."
          ],
          false
       ],
@@ -146,7 +146,7 @@
          8,
          true,
          0,
-         "312d60c5",
+         "46a7aed4",
          null,
          null,
          false
@@ -155,7 +155,7 @@
          "TO",
          [
             8,
-            "8882312d60c532c5"
+            "888246a7aed4454f"
          ],
          false
       ],

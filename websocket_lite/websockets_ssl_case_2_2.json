@@ -26,8 +26,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: zMXCSiLXM2tfZ5FrLd4anw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:AFJk7mB2v03ZPgtV/Vxl/49qGqY=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: S2cm1bUc+Oz2DtIby6MXrw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:uU5OAsElE4Li5QVQ1bn7xQmgoTA=\r\n\r\n",
    "id": "2.2",
    "isServer": false,
    "localCloseCode": 1000,
@@ -53,7 +53,7 @@
       "13": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:08:04.849Z",
+   "started": "2017-12-30T23:23:26.666Z",
    "trafficStats": null,
    "txFrameStats": {
       "8": 1,
@@ -94,7 +94,7 @@
          9,
          true,
          0,
-         "1fe66c0c",
+         "7cb5f3c1",
          null,
          null,
          false
@@ -103,7 +103,7 @@
          "TO",
          [
             19,
-            "898d1fe66c0c5783006070ca4c7b709400683e"
+            "898d7cb5f3c134d09fad1399d3b613c79fa55d"
          ],
          false
       ],
@@ -146,7 +146,7 @@
          8,
          true,
          0,
-         "18c17937",
+         "7a9ce7ce",
          null,
          null,
          false
@@ -155,7 +155,7 @@
          "TO",
          [
             8,
-            "888218c179371b29"
+            "88827a9ce7ce7974"
          ],
          false
       ],

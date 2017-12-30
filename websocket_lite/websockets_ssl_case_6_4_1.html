@@ -202,7 +202,7 @@ pre.wirelog_tcp_closed_by_peer {color: #fff; margin: 0; background-color: #000; 
       <center><a href="http://autobahn.ws/testsuite" title="Autobahn WebSocket Testsuite"><img src="http://autobahn.ws/static/img/ws_protocol_test_report.png"          border="0" width="820" height="46" alt="Autobahn WebSocket Testsuite Report"></img></a></center>
       <center><a href="http://autobahn.ws"           title="Autobahn WebSocket">          <img src="http://autobahn.ws/static/img/ws_protocol_test_report_autobahn.png" border="0" width="300" height="68" alt="Autobahn WebSocket">                 </img></a></center>
       <br/>
-      <p class="case case_non_strict">WebSockets SSL - <span style="font-size: 1.3em;"><b>Case 6.4.1</b></span> : Non-Strict - <span style="font-size: 0.9em;"><b>2003</b> ms @ 2017-12-28T06:08:12.635Z</a></p>
+      <p class="case case_non_strict">WebSockets SSL - <span style="font-size: 1.3em;"><b>Case 6.4.1</b></span> : Non-Strict - <span style="font-size: 0.9em;"><b>2001</b> ms @ 2017-12-30T23:23:34.763Z</a></p>
       <p class="case_text_block case_desc"><b>Case Description</b><br/><br/>Send invalid UTF-8 text message in 3 fragments (frames).
 First frame payload is valid, then wait, then 2nd frame which contains the payload making the sequence invalid, then wait, then 3rd frame with rest.
 Note that PART1 and PART3 are valid UTF-8 in themselves, PART2 is a 0x110000 encoded as in the UTF-8 integer encoding scheme, but the codepoint is invalid (out of range).
@@ -228,12 +228,12 @@ Upgrade: WebSocket
 Connection: Upgrade
 Pragma: no-cache
 Cache-Control: no-cache
-Sec-WebSocket-Key: Ul6vcmclpkQwiZvrFd6TMg==
+Sec-WebSocket-Key: AdPl/AO6+FLPSqH8dF3uIQ==
 Sec-WebSocket-Version: 13</pre>
       <pre class="http_dump">HTTP/1.1 101 Switching Protocols
 Upgrade:websocket
 Connection:Upgrade
-Sec-WebSocket-Accept:4aiL/57Xba3q9Nj/D5nTbIfRnBc=</pre>
+Sec-WebSocket-Accept:xOmx7j8no34P342+5p0QH8INHso=</pre>
       <br/><hr/>
       <h2>Closing Behavior</h2>
       <table>
@@ -292,27 +292,27 @@ Sec-WebSocket-Accept:4aiL/57Xba3q9Nj/D5nTbIfRnBc=</pre>
          <pre class="wirelog_tx_octets">               362d302e31302e390d0a486f7374 ...</pre>
          <pre class="wirelog_rx_octets">001 RX OCTETS: 485454502f312e312031303120537769746368696e672050726f746f636f6c730d0a557067726164653a776562736f636b65</pre>
          <pre class="wirelog_rx_octets">               740d0a436f6e6e656374696f6e3a ...</pre>
-         <pre class="wirelog_tx_frame">002 TX FRAME : OPCODE=1, FIN=False, RSV=0, PAYLOAD-LEN=11, MASK=b891860e, PAYLOAD-REPEAT-LEN=None, CHOPSIZE=None, SYNC=False</pre>
+         <pre class="wirelog_tx_frame">002 TX FRAME : OPCODE=1, FIN=False, RSV=0, PAYLOAD-LEN=11, MASK=c07933bc, PAYLOAD-REPEAT-LEN=None, CHOPSIZE=None, SYNC=False</pre>
          <pre class="wirelog_tx_frame">               κόσμε</pre>
-         <pre class="wirelog_tx_octets">003 TX OCTETS: 018bb891860e762b67b3015e05c0045f33</pre>
+         <pre class="wirelog_tx_octets">003 TX OCTETS: 018bc07933bc0ec3d20179b6b0727cb786</pre>
          <pre class="wirelog_delay">004 DELAY 1.000000 sec for TAG A</pre>
          <pre class="wirelog_delay">005 DELAY TIMEOUT on TAG A</pre>
-         <pre class="wirelog_tx_frame">006 TX FRAME : OPCODE=0, FIN=False, RSV=0, PAYLOAD-LEN=4, MASK=2233f84f, PAYLOAD-REPEAT-LEN=None, CHOPSIZE=None, SYNC=False</pre>
+         <pre class="wirelog_tx_frame">006 TX FRAME : OPCODE=0, FIN=False, RSV=0, PAYLOAD-LEN=4, MASK=879d39a7, PAYLOAD-REPEAT-LEN=None, CHOPSIZE=None, SYNC=False</pre>
          <pre class="wirelog_tx_frame">               0xf4908080</pre>
-         <pre class="wirelog_tx_octets">007 TX OCTETS: 00842233f84fd6a378cf</pre>
+         <pre class="wirelog_tx_octets">007 TX OCTETS: 0084879d39a7730db927</pre>
          <pre class="wirelog_delay">008 DELAY 1.000000 sec for TAG B</pre>
          <pre class="wirelog_delay">009 DELAY TIMEOUT on TAG B</pre>
-         <pre class="wirelog_tx_frame">010 TX FRAME : OPCODE=0, FIN=True, RSV=0, PAYLOAD-LEN=6, MASK=f3547c37, PAYLOAD-REPEAT-LEN=None, CHOPSIZE=None, SYNC=False</pre>
+         <pre class="wirelog_tx_frame">010 TX FRAME : OPCODE=0, FIN=True, RSV=0, PAYLOAD-LEN=6, MASK=7b39d0bf, PAYLOAD-REPEAT-LEN=None, CHOPSIZE=None, SYNC=False</pre>
          <pre class="wirelog_tx_frame">               edited</pre>
-         <pre class="wirelog_tx_octets">011 TX OCTETS: 8086f3547c37963015439630</pre>
+         <pre class="wirelog_tx_octets">011 TX OCTETS: 80867b39d0bf1e5db9cb1e5d</pre>
          <pre class="wirelog_kill_after">012 FAIL CONNECTION AFTER 1.000000 sec</pre>
          <pre class="wirelog_rx_octets">013 RX OCTETS: 8816</pre>
          <pre class="wirelog_rx_octets">014 RX OCTETS: 03ef4672616d65206e6f742076616c69642075746638</pre>
          <pre class="wirelog_rx_frame">015 RX FRAME : OPCODE=8, FIN=True, RSV=0, PAYLOAD-LEN=22, MASKED=False, MASK=None</pre>
          <pre class="wirelog_rx_frame">               0x03ef4672616d65206e6f742076616c69642075746638</pre>
-         <pre class="wirelog_tx_frame">016 TX FRAME : OPCODE=8, FIN=True, RSV=0, PAYLOAD-LEN=2, MASK=a5471279, PAYLOAD-REPEAT-LEN=None, CHOPSIZE=None, SYNC=False</pre>
+         <pre class="wirelog_tx_frame">016 TX FRAME : OPCODE=8, FIN=True, RSV=0, PAYLOAD-LEN=2, MASK=604a9013, PAYLOAD-REPEAT-LEN=None, CHOPSIZE=None, SYNC=False</pre>
          <pre class="wirelog_tx_frame">               0x03e8</pre>
-         <pre class="wirelog_tx_octets">017 TX OCTETS: 8882a5471279a6af</pre>
+         <pre class="wirelog_tx_octets">017 TX OCTETS: 8882604a901363a2</pre>
          <pre class="wirelog_tcp_closed_by_peer">018 TCP DROPPED BY PEER</pre>
       </div>
       <br/><hr/>

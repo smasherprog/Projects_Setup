@@ -27,8 +27,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: QWlRIvnkcTdXIGKR6AcYqA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:4SjdtiKJw7JqeAbpM5u3lczqxgY=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: c7eBuvPtreqhrMD01OffJQ==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:k3NlIqNfWdYYt5KsnkILnRw8i1E=\r\n\r\n",
    "id": "6.22.12",
    "isServer": false,
    "localCloseCode": 1000,
@@ -51,11 +51,11 @@
       "8": 1
    },
    "rxOctetStats": {
-      "2": 2,
+      "4": 1,
       "6": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:20:23.962Z",
+   "started": "2017-12-30T23:34:43.296Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1,
@@ -96,7 +96,7 @@
          1,
          true,
          0,
-         "e82062a6",
+         "379ff0e5",
          null,
          null,
          false
@@ -105,7 +105,7 @@
          "TO",
          [
             10,
-            "8184e82062a619bfdd19"
+            "8184379ff0e5c6004f5a"
          ],
          false
       ],
@@ -141,7 +141,7 @@
          8,
          true,
          0,
-         "c7247e18",
+         "1a798408",
          null,
          null,
          false
@@ -150,22 +150,15 @@
          "TO",
          [
             8,
-            "8882c7247e18c4cc"
+            "88821a7984081991"
          ],
          false
       ],
       [
          "RO",
          [
-            2,
-            "8802"
-         ]
-      ],
-      [
-         "RO",
-         [
-            2,
-            "03e8"
+            4,
+            "880203e8"
          ]
       ],
       [

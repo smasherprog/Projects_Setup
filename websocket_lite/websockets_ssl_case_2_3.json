@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send ping with small binary (non UTF-8) payload.",
    "droppedByMe": false,
-   "duration": 2,
+   "duration": 1,
    "expectation": "Pong with payload echo'ed is sent in reply to Ping. Clean close with normal code.",
    "expected": {
       "OK": [
@@ -26,8 +26,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: Gboxz+QuX5c2LJ+jVBVXqw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:Zpn4wUWJm8PyHPA3hZIny0qjyCM=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: ZQUCPGV3UTuQeae2Wn80Yg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:inOOjskNg89UmH9sVwk08BsynjI=\r\n\r\n",
    "id": "2.3",
    "isServer": false,
    "localCloseCode": 1000,
@@ -53,7 +53,7 @@
       "8": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:08:04.940Z",
+   "started": "2017-12-30T23:23:26.768Z",
    "trafficStats": null,
    "txFrameStats": {
       "8": 1,
@@ -94,7 +94,7 @@
          9,
          true,
          0,
-         "a22e871b",
+         "c263f851",
          null,
          null,
          false
@@ -103,7 +103,7 @@
          "TO",
          [
             14,
-            "8988a22e871ba2d179e65ed587e4"
+            "8988c263f851c29c06ac3e98f8ae"
          ],
          false
       ],
@@ -146,7 +146,7 @@
          8,
          true,
          0,
-         "e67fd17f",
+         "d4a850a4",
          null,
          null,
          false
@@ -155,7 +155,7 @@
          "TO",
          [
             8,
-            "8882e67fd17fe597"
+            "8882d4a850a4d740"
          ],
          false
       ],

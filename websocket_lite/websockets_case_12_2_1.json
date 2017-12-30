@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send 1000 compressed messages each of payload size 16, auto-fragment to 0 octets. Use default permessage-deflate offer.",
    "droppedByMe": false,
-   "duration": 194,
+   "duration": 277,
    "expectation": "Receive echo'ed messages (with payload as sent). Timeout case after 60 secs.",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: M5nAFJ09ExwENVFqUgX/5g==\r\nSec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; client_max_window_bits\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:XcUzxTEMHLMZ0fKvIO0WzHxcvXk=\r\nSec-WebSocket-Extensions:permessage-deflate; client_no_context_takeover\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: Lq/nfIJWsYdE/PZnMksUpQ==\r\nSec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; client_max_window_bits\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:7Is8wfzPApNSZvzYHBkZuwy4OS8=\r\nSec-WebSocket-Extensions:permessage-deflate; client_no_context_takeover\r\n\r\n",
    "id": "12.2.1",
    "isServer": false,
    "localCloseCode": 1000,
@@ -37,13 +37,13 @@
       "8": 1
    },
    "rxOctetStats": {
-      "2": 3,
+      "2": 13,
       "4": 1,
-      "16": 3,
-      "18": 997,
+      "16": 13,
+      "18": 987,
       "199": 1
    },
-   "started": "2017-12-28T06:22:04.250Z",
+   "started": "2017-12-30T23:36:33.818Z",
    "trafficStats": {
       "incomingCompressionRatio": 1.0,
       "incomingOctetsAppLevel": 16000,
@@ -121,7 +121,7 @@
          8,
          true,
          0,
-         "4632ddf5",
+         "9b21e9f4",
          null,
          null,
          false
@@ -130,7 +130,7 @@
          "TO",
          [
             8,
-            "88824632ddf545da"
+            "88829b21e9f498c9"
          ],
          false
       ],

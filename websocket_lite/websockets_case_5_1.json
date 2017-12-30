@@ -21,41 +21,36 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: nm3u6smPrFBSy+IY5fPziA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:1D+tF6flQLzDaomb3rWIsClhxwU=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: MvkCN4gBfb6jXbL/1OZIZw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:ZRFw/xxl9V0ahK7NnjUcxMCZpzQ=\r\n\r\n",
    "id": "5.1",
    "isServer": false,
-   "localCloseCode": 1000,
+   "localCloseCode": null,
    "localCloseReason": null,
    "received": [],
-   "remoteCloseCode": 1002,
-   "remoteCloseReason": "Closing connection. Control Frames must be Fin",
+   "remoteCloseCode": null,
+   "remoteCloseReason": null,
    "reportCompressionRatio": false,
    "reportTime": false,
    "result": "Actual events match at least one expected.",
    "resultClose": "Connection was properly closed",
-   "rxFrameStats": {
-      "8": 1
-   },
+   "rxFrameStats": {},
    "rxOctetStats": {
-      "50": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:20:13.399Z",
+   "started": "2017-12-30T23:34:32.756Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 1,
-      "8": 1,
       "9": 1
    },
    "txOctetStats": {
-      "8": 1,
       "15": 2,
       "240": 1
    },
-   "wasClean": true,
+   "wasClean": false,
    "wasCloseHandshakeTimeout": false,
-   "wasNotCleanReason": null,
+   "wasNotCleanReason": "peer dropped the TCP connection without previous WebSocket closing handshake",
    "wasOpenHandshakeTimeout": false,
    "wasServerConnectionDropTimeout": false,
    "wirelog": [
@@ -83,7 +78,7 @@
          9,
          false,
          0,
-         "5b5bd581",
+         "6e846893",
          null,
          null,
          false
@@ -92,7 +87,7 @@
          "TO",
          [
             15,
-            "09895b5bd5813d29b4e6363ebbf56a"
+            "09896e84689308f609f403e106e75f"
          ],
          false
       ],
@@ -105,7 +100,7 @@
          0,
          true,
          0,
-         "3b9a57cb",
+         "4b472d25",
          null,
          null,
          false
@@ -114,54 +109,13 @@
          "TO",
          [
             15,
-            "80893b9a57cb5de836ac56ff39bf09"
+            "80894b472d252d354c422622435179"
          ],
          false
       ],
       [
          "KL",
          1
-      ],
-      [
-         "RO",
-         [
-            50,
-            "883003ea436c6f73696e6720636f6e6e656374696f6e2e20436f6e74726f6c204672616d6573206d7573742062652046696e"
-         ]
-      ],
-      [
-         "RF",
-         [
-            48,
-            "0x03ea436c6f73696e6720636f6e6e656374696f6e2e20436f6e74726f6c204672616d6573206d7573742062652046696e"
-         ],
-         8,
-         true,
-         0,
-         false,
-         null
-      ],
-      [
-         "TF",
-         [
-            2,
-            "0x03e8"
-         ],
-         8,
-         true,
-         0,
-         "9ea7a8c3",
-         null,
-         null,
-         false
-      ],
-      [
-         "TO",
-         [
-            8,
-            "88829ea7a8c39d4f"
-         ],
-         false
       ]
    ]
 }

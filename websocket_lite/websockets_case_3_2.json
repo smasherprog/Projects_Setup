@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send small text message, then send again with <b>RSV = 2</b>, then send Ping.",
    "droppedByMe": false,
-   "duration": 1,
+   "duration": 2,
    "expectation": "Echo for first message is received, but then connection is failed immediately, since RSV must be 0, when no extension defining RSV meaning has been negotiated. The Pong is not received.",
    "expected": {
       "NON-STRICT": [],
@@ -28,8 +28,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: rFmxTdJh5YQ2jaR654a67w==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:kbN0mqWcKjXCk+99RGvpDo0wEfk=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: +fxY4/1185Dhj3bhv8H3IA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:tVk0rizYD14nkrIOSHXj5jpSHFE=\r\n\r\n",
    "id": "3.2",
    "isServer": false,
    "localCloseCode": null,
@@ -54,7 +54,7 @@
       "15": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:20:13.285Z",
+   "started": "2017-12-30T23:34:32.652Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 2,
@@ -95,7 +95,7 @@
          1,
          true,
          0,
-         "64dce1a9",
+         "17f1bce1",
          null,
          null,
          false
@@ -104,7 +104,7 @@
          "TO",
          [
             19,
-            "818d64dce1a92cb98dc50bf0c1de0bae8dcd45"
+            "818d17f1bce15f94d08d78dd9c967883d08536"
          ],
          false
       ],
@@ -117,7 +117,7 @@
          1,
          true,
          2,
-         "7d238c13",
+         "74a6d59e",
          null,
          null,
          false
@@ -126,7 +126,7 @@
          "TO",
          [
             19,
-            "a18d7d238c133546e07f120fac641251e0775c"
+            "a18d74a6d59e3cc3b9f21b8af5e91bd4b9fa55"
          ],
          false
       ],
@@ -139,7 +139,7 @@
          9,
          true,
          0,
-         "262bee0d",
+         "ff87fbb8",
          null,
          null,
          false
@@ -148,7 +148,7 @@
          "TO",
          [
             6,
-            "8980262bee0d"
+            "8980ff87fbb8"
          ],
          false
       ],

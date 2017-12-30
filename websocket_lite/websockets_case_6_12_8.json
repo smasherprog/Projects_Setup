@@ -22,8 +22,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: gs8YtsqT/Rc36Xnmx1R97g==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:/qTA94L9VqgsBdLWSws5rcctAvM=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: zqigMVz2GX6PKs1WVZHdPg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:wQWjTHxWEfY4slGKq0Myo5rJvWU=\r\n\r\n",
    "id": "6.12.8",
    "isServer": false,
    "localCloseCode": 1000,
@@ -42,7 +42,7 @@
       "24": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:20:23.797Z",
+   "started": "2017-12-30T23:34:43.129Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1,
@@ -83,7 +83,7 @@
          1,
          true,
          0,
-         "22a8f0fc",
+         "f411179d",
          null,
          null,
          false
@@ -92,7 +92,7 @@
          "TO",
          [
             69,
-            "81bf22a8f0fca229727fa62d767baa217a77ae257e73b239626fb63d666bba316a67be356e638209525f860d565b8a015a578e055e539219424f961d464b9a11 ..."
+            "81bff411179d7490951e7094911a7c989d16789c99126480850e6084810a6c888d06688c890254b0b53e50b4b13a5cb8bd3658bcb93244a0a52e40a4a12a4ca8 ..."
          ],
          false
       ],
@@ -128,7 +128,7 @@
          8,
          true,
          0,
-         "0a99469b",
+         "b9ccb50d",
          null,
          null,
          false
@@ -137,7 +137,7 @@
          "TO",
          [
             8,
-            "88820a99469b0971"
+            "8882b9ccb50dba24"
          ],
          false
       ]

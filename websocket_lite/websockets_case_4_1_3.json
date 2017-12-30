@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send small text message, then send frame with reserved non-control <b>Opcode = 5</b>, then send Ping.",
    "droppedByMe": false,
-   "duration": 2,
+   "duration": 1,
    "expectation": "Echo for first message is received, but then connection is failed immediately, since reserved opcode frame is used. A Pong is not received.",
    "expected": {
       "NON-STRICT": [],
@@ -28,8 +28,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 7D6zoz+7VnpiqpVzp8amaA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:CEBmBRsa/q3MwqIwnvSSnRMdjH4=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: sbTXa/vQBlf1CIpzW8v7Hw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:qbey9oykD/3SjMaE1KQH0HRBpLY=\r\n\r\n",
    "id": "4.1.3",
    "isServer": false,
    "localCloseCode": null,
@@ -54,7 +54,7 @@
       "15": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:20:13.333Z",
+   "started": "2017-12-30T23:34:32.694Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1,
@@ -96,7 +96,7 @@
          1,
          true,
          0,
-         "24fc3c8f",
+         "79272c51",
          null,
          null,
          false
@@ -105,7 +105,7 @@
          "TO",
          [
             19,
-            "818d24fc3c8f6c9950e34bd01cf84b8e50eb05"
+            "818d79272c513142403d160b0c261655403558"
          ],
          false
       ],
@@ -118,7 +118,7 @@
          5,
          true,
          0,
-         "5747bca6",
+         "52e0ad3a",
          null,
          null,
          false
@@ -127,7 +127,7 @@
          "TO",
          [
             6,
-            "85805747bca6"
+            "858052e0ad3a"
          ],
          false
       ],
@@ -140,7 +140,7 @@
          9,
          true,
          0,
-         "dcdf4855",
+         "67303763",
          null,
          null,
          false
@@ -149,7 +149,7 @@
          "TO",
          [
             6,
-            "8980dcdf4855"
+            "898067303763"
          ],
          false
       ],

@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send a text message with payload which is not valid UTF-8 in one fragment.<br><br>Payload: 0xc020c120c220c320c420c520c620c720c820c920ca20cb20cc20cd20ce20cf20d020d120d220d320d420d520d620d720d820d920da20db20dc20dd20de20",
    "droppedByMe": false,
-   "duration": 2,
+   "duration": 1,
    "expectation": "The connection is failed immediately, since the payload is not valid UTF-8.",
    "expected": {
       "OK": []
@@ -22,8 +22,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: LpwYS0zcyg7V81Xa+B9r5w==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:wmftRfpYmPdhNnCK7f7T2lTQeu8=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: HgomWCb5PyAH05IjXvCtqQ==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:qufMES8TIdy79jjPvxX+EXd9iKI=\r\n\r\n",
    "id": "6.13.1",
    "isServer": false,
    "localCloseCode": 1000,
@@ -43,7 +43,7 @@
       "22": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:08:24.962Z",
+   "started": "2017-12-30T23:23:47.365Z",
    "trafficStats": null,
    "txFrameStats": {
       "1": 1,
@@ -84,7 +84,7 @@
          1,
          true,
          0,
-         "27ecd633",
+         "98fc45c7",
          null,
          null,
          false
@@ -93,7 +93,7 @@
          "TO",
          [
             68,
-            "81be27ecd633e7cc1713e5cc1513e3cc1313e1cc1113efcc1f13edcc1d13ebcc1b13e9cc1913f7cc0713f5cc0513f3cc0313f1cc0113ffcc0f13fdcc0d13fbcc ..."
+            "81be98fc45c758dc84e75adc86e75cdc80e75edc82e750dc8ce752dc8ee754dc88e756dc8ae748dc94e74adc96e74cdc90e74edc92e740dc9ce742dc9ee744dc ..."
          ],
          false
       ],
@@ -136,7 +136,7 @@
          8,
          true,
          0,
-         "e862d501",
+         "bfb615ea",
          null,
          null,
          false
@@ -145,7 +145,7 @@
          "TO",
          [
             8,
-            "8882e862d501eb8a"
+            "8882bfb615eabc5e"
          ],
          false
       ]

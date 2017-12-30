@@ -21,8 +21,8 @@
       "requireClean": false
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: MtixwjlKAfUXCvAeAD0uqg==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:b2MaLCQ5svl311O8DbgdaZ2PE/U=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3001\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: 1qJMXPITjGO2jEjlnT1f9w==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:b6Fp3dovJsnUw1ngTaBtBwPbc+U=\r\n\r\n",
    "id": "5.13",
    "isServer": false,
    "localCloseCode": 1000,
@@ -42,7 +42,7 @@
       "44": 1,
       "126": 1
    },
-   "started": "2017-12-28T06:08:08.974Z",
+   "started": "2017-12-30T23:23:31.006Z",
    "trafficStats": null,
    "txFrameStats": {
       "0": 1,
@@ -50,7 +50,6 @@
       "8": 1
    },
    "txOctetStats": {
-      "19": 1,
       "30": 1,
       "240": 1
    },
@@ -84,7 +83,7 @@
          0,
          false,
          0,
-         "325d74ca",
+         "d73295c4",
          null,
          null,
          true
@@ -93,7 +92,7 @@
          "TO",
          [
             30,
-            "0098325d74ca5c321ae751321abe5b3301ab46341ba4122d15b35e3215ae"
+            "0098d73295c4b95dfbe9b45dfbb0be5ce0a5a35bfaaaf742f4bdbb5df4a0"
          ],
          true
       ],
@@ -106,7 +105,7 @@
          1,
          true,
          0,
-         "f83c380b",
+         "a18554f6",
          null,
          null,
          true
@@ -150,18 +149,10 @@
          8,
          true,
          0,
-         "4ccedbc5",
+         "924d2274",
          null,
          null,
          false
-      ],
-      [
-         "TO",
-         [
-            19,
-            "818df83c380bb05954679710187c974e546fd9"
-         ],
-         true
       ]
    ]
 }

@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send ping without payload.",
    "droppedByMe": false,
-   "duration": 2,
+   "duration": 1,
    "expectation": "Pong (with empty payload) is sent in reply to Ping. Clean close with normal code.",
    "expected": {
       "OK": [
@@ -26,8 +26,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: douoBMPZPu2ddBkKuOF2MQ==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:3JOHWTJfR6n067Cj05ndQWrwYDQ=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: Q20pZXmu7kM07rWXKo+gtw==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:gBptsV6cgawZi3XqAPeSyAKh414=\r\n\r\n",
    "id": "2.1",
    "isServer": false,
    "localCloseCode": 1000,
@@ -52,7 +52,7 @@
       "2": 3,
       "126": 1
    },
-   "started": "2017-12-28T06:20:12.962Z",
+   "started": "2017-12-30T23:34:32.335Z",
    "trafficStats": null,
    "txFrameStats": {
       "8": 1,
@@ -93,7 +93,7 @@
          9,
          true,
          0,
-         "145ad9af",
+         "7876955f",
          null,
          null,
          false
@@ -102,7 +102,7 @@
          "TO",
          [
             6,
-            "8980145ad9af"
+            "89807876955f"
          ],
          false
       ],
@@ -138,7 +138,7 @@
          8,
          true,
          0,
-         "3915d456",
+         "e8ed4dfc",
          null,
          null,
          false
@@ -147,7 +147,7 @@
          "TO",
          [
             8,
-            "88823915d4563afd"
+            "8882e8ed4dfceb05"
          ],
          false
       ],

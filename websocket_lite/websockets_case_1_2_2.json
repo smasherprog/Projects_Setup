@@ -27,8 +27,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: dBd4G4VwgoE1P/XN7hUM8Q==\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:Y2o+QIVnZA1neIfE4/PYfX/7e0Q=\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: pRYFw2XUbmL7IwfYjZ3oDA==\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:fbque7aIf8VwomfxBa2WU5owBA4=\r\n\r\n",
    "id": "1.2.2",
    "isServer": false,
    "localCloseCode": 1000,
@@ -51,11 +51,11 @@
       "8": 1
    },
    "rxOctetStats": {
-      "2": 2,
+      "4": 1,
       "126": 1,
       "127": 1
    },
-   "started": "2017-12-28T06:20:12.724Z",
+   "started": "2017-12-30T23:34:32.147Z",
    "trafficStats": null,
    "txFrameStats": {
       "2": 1,
@@ -96,7 +96,7 @@
          2,
          true,
          0,
-         "c4444f17",
+         "3e433cd8",
          null,
          null,
          false
@@ -105,7 +105,7 @@
          "TO",
          [
             131,
-            "82fdc4444f173abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93abab1e93aba ..."
+            "82fd3e433cd8c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bdc226c0bd ..."
          ],
          false
       ],
@@ -141,7 +141,7 @@
          8,
          true,
          0,
-         "6893a5f1",
+         "8ee7da82",
          null,
          null,
          false
@@ -150,22 +150,15 @@
          "TO",
          [
             8,
-            "88826893a5f16b7b"
+            "88828ee7da828d0f"
          ],
          false
       ],
       [
          "RO",
          [
-            2,
-            "8802"
-         ]
-      ],
-      [
-         "RO",
-         [
-            2,
-            "03e8"
+            4,
+            "880203e8"
          ]
       ],
       [

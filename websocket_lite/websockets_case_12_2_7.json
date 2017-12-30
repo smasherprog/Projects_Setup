@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send 1000 compressed messages each of payload size 16384, auto-fragment to 0 octets. Use default permessage-deflate offer.",
    "droppedByMe": false,
-   "duration": 935,
+   "duration": 1422,
    "expectation": "Receive echo'ed messages (with payload as sent). Timeout case after 480 secs.",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: O+bR/iecgP0AEy3Ykpt6/Q==\r\nSec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; client_max_window_bits\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:Xd19bkznc2r6Oo4lbwPJDIFYH4Q=\r\nSec-WebSocket-Extensions:permessage-deflate; client_no_context_takeover\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: iU9v4tluSvQZ72wnsjdD6A==\r\nSec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; client_max_window_bits\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:eiUVmXrqmBLQhP8T7Msu3CPAzjg=\r\nSec-WebSocket-Extensions:permessage-deflate; client_no_context_takeover\r\n\r\n",
    "id": "12.2.7",
    "isServer": false,
    "localCloseCode": 1000,
@@ -37,24 +37,34 @@
       "8": 1
    },
    "rxOctetStats": {
-      "4": 178,
+      "4": 120,
       "199": 1,
-      "1464": 19,
+      "324": 22,
+      "1464": 9,
+      "1784": 17,
       "2924": 17,
-      "3244": 1,
-      "4704": 1,
-      "5844": 1,
-      "6164": 1,
-      "10224": 1,
-      "10544": 1,
-      "11684": 1,
-      "13144": 1,
+      "3244": 13,
+      "4384": 4,
+      "4704": 13,
+      "5844": 6,
+      "6164": 11,
+      "7304": 13,
+      "7624": 14,
+      "8764": 14,
+      "9084": 13,
+      "10224": 11,
+      "10544": 6,
+      "11684": 13,
+      "12004": 4,
+      "13144": 13,
       "13464": 17,
-      "14924": 19,
-      "16384": 177,
-      "16388": 783
+      "14604": 17,
+      "14924": 9,
+      "16064": 22,
+      "16384": 119,
+      "16388": 742
    },
-   "started": "2017-12-28T06:22:06.109Z",
+   "started": "2017-12-30T23:36:36.523Z",
    "trafficStats": {
       "incomingCompressionRatio": 1.0,
       "incomingOctetsAppLevel": 16384000,
@@ -703,7 +713,7 @@
          8,
          true,
          0,
-         "3ef1a77d",
+         "a916eb3b",
          null,
          null,
          false
@@ -712,7 +722,7 @@
          "TO",
          [
             8,
-            "88823ef1a77d3d19"
+            "8882a916eb3baafe"
          ],
          false
       ],

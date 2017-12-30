@@ -8,7 +8,7 @@
    "createWirelog": true,
    "description": "Send 1000 compressed messages each of payload size 64, auto-fragment to 0 octets. Use default permessage-deflate offer.",
    "droppedByMe": false,
-   "duration": 203,
+   "duration": 283,
    "expectation": "Receive echo'ed messages (with payload as sent). Timeout case after 60 secs.",
    "expected": {},
    "expectedClose": {
@@ -19,8 +19,8 @@
       "requireClean": true
    },
    "failedByMe": false,
-   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: QOLAvZuhUkXFgScmUQ76AQ==\r\nSec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; client_max_window_bits\r\nSec-WebSocket-Version: 13\r\n\r\n",
-   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:1vI6X3asarGQm7sNhmypLH5B0HI=\r\nSec-WebSocket-Extensions:permessage-deflate; client_no_context_takeover\r\n\r\n",
+   "httpRequest": "GET / HTTP/1.1\r\nUser-Agent: AutobahnTestSuite/0.7.6-0.10.9\r\nHost: localhost:3000\r\nUpgrade: WebSocket\r\nConnection: Upgrade\r\nPragma: no-cache\r\nCache-Control: no-cache\r\nSec-WebSocket-Key: NS65YCGO+Y9i6hBQBL/F+Q==\r\nSec-WebSocket-Extensions: permessage-deflate; client_no_context_takeover; client_max_window_bits\r\nSec-WebSocket-Version: 13\r\n\r\n",
+   "httpResponse": "HTTP/1.1 101 Switching Protocols\r\nUpgrade:websocket\r\nConnection:Upgrade\r\nSec-WebSocket-Accept:7Xnqs0EAEDH+Ww7VqCtrExcX+CE=\r\nSec-WebSocket-Extensions:permessage-deflate; client_no_context_takeover\r\n\r\n",
    "id": "12.2.2",
    "isServer": false,
    "localCloseCode": 1000,
@@ -37,11 +37,13 @@
       "8": 1
    },
    "rxOctetStats": {
+      "2": 6,
       "4": 1,
-      "66": 1000,
+      "64": 6,
+      "66": 994,
       "199": 1
    },
-   "started": "2017-12-28T06:22:04.446Z",
+   "started": "2017-12-30T23:36:34.098Z",
    "trafficStats": {
       "incomingCompressionRatio": 1.0,
       "incomingOctetsAppLevel": 64000,
@@ -131,7 +133,7 @@
          8,
          true,
          0,
-         "e5bc1fc8",
+         "723ffbb7",
          null,
          null,
          false
@@ -140,7 +142,7 @@
          "TO",
          [
             8,
-            "8882e5bc1fc8e654"
+            "8882723ffbb771d7"
          ],
          false
       ],
